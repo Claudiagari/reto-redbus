@@ -1,7 +1,11 @@
-import React from 'react' ;
-import InfoCompra from './info-compra'
+import React from 'react';
+import InfoCompra from './info-compra';
+import BtnEfectivo from './btn-efectivo'
 const Efectivo = () => (
-  <InfoCompra/>
+  <div>
+    <InfoCompra />
+    <BtnEfectivo />
+  </div>
 )
 
 export default Efectivo
