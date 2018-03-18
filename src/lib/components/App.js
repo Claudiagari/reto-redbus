@@ -1,14 +1,14 @@
 import React from "react";
-
 import {BrowserRouter as Router, Route, Link} from "react-router-dom";
 import Internet from './internet';
 import Efectivo from './efectivo';
+import logo from '../assets/images/pagoefectivo.png'
 
 const App = () => (
   <Router>
   <div>
     <div className="col-2">
-      <img className="img-fluid" src="pagoefectivo.png" alt="" />
+      <img className="img-fluid" src={logo} alt="logo" />
     </div>
     <ul className="header">
       <li><Link to="/" className="active">Banca por internet</Link></li>
