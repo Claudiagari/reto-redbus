@@ -1,22 +1,18 @@
 import React from "react";
 
-import {
-    Route,
-    NavLink,
-    HashRouter
-  } from "react-router-dom";
+import {BrowserRouter as Router, Route, Link} from "react-router-dom";
 import Internet from './internet';
 import Efectivo from './efectivo';
 
 const App = () => (
-  <HashRouter>
+  <Router>
   <div>
     <div className="col-2">
       <img className="img-fluid" src="pagoefectivo.png" alt="" />
     </div>
     <ul className="header">
-      <li><NavLink to="/" className="active">Banca por internet</NavLink></li>
-      <li><NavLink to="/efectivo" className="active">Pagar en efectivo</NavLink></li>
+      <li><Link to="/" className="active">Banca por internet</Link></li>
+      <li><Link to="/efectivo" className="active">Pagar en efectivo</Link></li>
       
     </ul>
     <div className="content"> 
@@ -25,7 +21,7 @@ const App = () => (
      
     </div>
   </div>
-  </HashRouter>
+  </Router>
 );
 
 export default App;
