@@ -1,7 +1,8 @@
 import React from 'react' ;
+import InfoCompra from './info-compra'
 
 const Internet = () => (
-  <h1>Internet</h1>
+  <InfoCompra/>
 )
 
 export default Internet

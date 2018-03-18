@@ -1,7 +1,7 @@
 import React from 'react' ;
-
+import InfoCompra from './info-compra'
 const Efectivo = () => (
-  <h1>Efectivo</h1>
+  <InfoCompra/>
 )
 
 export default Efectivo

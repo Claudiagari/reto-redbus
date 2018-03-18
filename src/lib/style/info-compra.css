@@ -1,0 +1,19 @@
+.info{
+  padding: 20px;
+}
+.codigo{
+  background: #e0aa00;
+  color: #fff;
+  border: 1px solid #e0aa00;
+  border-radius: 8px 0px 0px 8px;
+}
+.total {
+ background:  #f6f4f4;
+ color: #000;
+}
+.fecha{
+  background: #ffdd91;
+  color: #000;
+  border: 1px solid #ffdd91;
+  border-radius: 0px 8px 8px 0px;
+}
