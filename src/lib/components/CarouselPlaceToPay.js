@@ -7,13 +7,24 @@ import banbif from '../assets/images/banbif.png';
 
 const CarouselPlaceToPay = () => (
   <div className="place-pay">
-    <span className="text">Selecciona dónde quieras pagar</span>
-    <img src={bcp}/>
-    <img src={bbva}/>
-    <img src={interbank}/>
-    <img src={scotiabank}/>
-    <img src={banbif}/>
-  </div>
+    <ul>
+      <li>
+        <img src={bcp}/>
+      </li>
+      <li>
+        <img src={bbva}/>
+      </li>
+      <li>
+        <img src={interbank}/>
+      </li>
+      <li>
+      <img src={scotiabank}/>
+      </li>
+      <li>
+        <img src={banbif}/>
+      </li>        
+    </ul>
+    </div>
 )
 
 export default CarouselPlaceToPay

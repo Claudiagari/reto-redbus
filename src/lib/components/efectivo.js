@@ -1,7 +1,8 @@
 import React from 'react' ;
+import SectionPayCash from './SectionPayCash'
 
 const Efectivo = () => (
-  <h1>Efectivo</h1>
+  <SectionPayCash />
 )
 
 export default Efectivo

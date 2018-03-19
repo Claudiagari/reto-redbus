@@ -1,8 +1,8 @@
 import React from 'react' ;
-import CarouselPaceToPay from './CarouselPlaceToPay'
+import SectionPayOnline from './SectionPayOnline'
 
 const Internet = () => (
-  <CarouselPaceToPay />
+  <SectionPayOnline />
 )
 
 export default Internet
