@@ -1,3 +1,4 @@
+
 import React from 'react';
 import InfoCompra from './info-compra';
 import SectionPayCash from './SectionPayCash';
