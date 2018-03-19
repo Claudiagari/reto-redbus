@@ -1,7 +1,8 @@
 import React from 'react' ;
+import CarouselPaceToPay from './CarouselPlaceToPay'
 
 const Internet = () => (
-  <h1>Internet</h1>
+  <CarouselPaceToPay />
 )
 
 export default Internet
