@@ -1,10 +1,13 @@
+
 import React from 'react';
 import InfoCompra from './info-compra';
-import BtnEfectivo from './btn-efectivo'
+import SectionPayCash from './SectionPayCash';
+import BtnEfectivo from './btn-efectivo';
 const Efectivo = () => (
   <div>
-    <InfoCompra />
-    <BtnEfectivo />
+   <InfoCompra />
+   <SectionPayCash />
+   <BtnEfectivo />
   </div>
 )
 
