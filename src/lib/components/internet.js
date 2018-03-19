@@ -1,7 +1,8 @@
 import React from 'react' ;
+import SectionPayOnline from './SectionPayOnline'
 
 const Internet = () => (
-  <h1>Internet</h1>
+  <SectionPayOnline />
 )
 
 export default Internet
