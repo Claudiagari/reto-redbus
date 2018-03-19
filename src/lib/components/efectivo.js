@@ -7,7 +7,7 @@ const Efectivo = () => (
    <InfoCompra />
    <SectionPayCash />
    <BtnEfectivo />
-   <Footer/>
+   
   </div>
 )
 
