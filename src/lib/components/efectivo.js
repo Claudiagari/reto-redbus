@@ -1,13 +1,14 @@
-import React from 'react' ;
-import SectionPayCash from './SectionPayCash';
-import InfoCompra from './info-compra'
 
+import React from 'react';
+import InfoCompra from './info-compra';
+import SectionPayCash from './SectionPayCash';
+import BtnEfectivo from './btn-efectivo';
 const Efectivo = () => (
   <div>
-    <InfoCompra/>
-    <SectionPayCash />
+   <InfoCompra />
+   <SectionPayCash />
+   <BtnEfectivo />
   </div>
-
 )
 
 export default Efectivo

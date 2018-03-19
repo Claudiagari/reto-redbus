@@ -1,12 +1,15 @@
 import React from 'react' ;
-import SectionPayOnline from './SectionPayOnline';
 import InfoCompra from './info-compra'
+import SectionPayOnline from './SectionPayOnline';
+import BtnInternet from './btn-internet'
+
 const Internet = () => (
   <div>
-    <InfoCompra/>
-  <SectionPayOnline />
+  <InfoCompra/>
+   <SectionPayOnline />
+  <BtnInternet/>
   </div>
-
 )
+
 
 export default Internet
