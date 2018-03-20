@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Instructions = () => (
+const Instructions = ({dataInstructions}) => (
   <div className="instructions">
     <h6>Instrucciones de pago</h6>
-    <p>Selecciona la opción Pago de servicios > De Instituciones y Empresas > Busca por nombre > PAGOEFECTIVO > PAGOEFECTIVOSOLES.</p>
-    <p>Agentes BCP: Brinda el código de empresa 02186</p>
+    <p>{dataInstructions.instructions1}</p>
+    <p>{dataInstructions.instructions2}</p>
+    <p className="instruction3">{dataInstructions.instructions3}</p>
   </div>
 )
 
