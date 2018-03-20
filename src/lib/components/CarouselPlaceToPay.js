@@ -4,26 +4,16 @@ import bbva from '../assets/images/bbva.png';
 import interbank from '../assets/images/interbank2.jpg';
 import scotiabank from '../assets/images/scotiabank.gif';
 import banbif from '../assets/images/banbif.png';
+import CarrouselItem from './Carrousel-item';
 
-const CarouselPlaceToPay = () => (
-  
-    <ul>
-      <li>
-        <img src={bcp}/>
-      </li>
-      <li>
-        <img src={bbva}/>
-      </li>
-      <li>
-        <img src={interbank}/>
-      </li>
-      <li>
-      <img src={scotiabank}/>
-      </li>
-      <li>
-        <img src={banbif}/>
-      </li>        
-    </ul>
+const CarouselPlaceToPay = ({dataOnline}) => (
+      <ul>
+     {dataOnline.map( placepay =>
+      <CarrouselItem  key = {placepay.name}
+        {...placepay}
+     />
+    )}
+  </ul>
 )
 
 export default CarouselPlaceToPay
