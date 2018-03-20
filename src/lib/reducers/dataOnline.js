@@ -25,13 +25,13 @@ export default function () {
           instructions2: 'Ingresa tu código CIP: 9125682 y sigue los pasos'
         },
         {
-          id: 'scotiabank',
+          name: 'scotiabank',
           url: scotiabank,
           instructions1: 'Selecciona la opción Pagos > Otras Instituciones > Otros > Busca por Empresa/Servicio: PAGOEFECTIVO > Selecciona: PAGOEFECTIVO SOLES',
           instructions2: 'Ingresa tu código CIP: 9125682 y sigue los pasos'
         },
         {
-          id: 'banbif',
+          name: 'banbif',
           url: banbif,
           instructions1: 'Selecciona la opción Pago de servicio',
           instructions2: 'Ingresa tu código CIP: 9125682 y sigue los pasos'
