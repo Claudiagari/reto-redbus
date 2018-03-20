@@ -1,9 +1,9 @@
 import React from 'react' ;
-import CarouselPaceToPay from './CarouselPlaceToPay';
+import CarouselPlaceToPayC from './CarouselPlaceToPayC';
 import Instructions from './Instructions'
 
 /* Data según pago en efectivo */
-const data = [
+const dataCash = [
   {
     id: 'bcp',
     url: 'bcp.png',
@@ -27,13 +27,19 @@ const data = [
     url: 'scotiabank.png',
     instructions1: 'Selecciona la opción Pagos > Otras Instituciones > Otros > Busca por Empresa/Servicio: PAGOEFECTIVO > Selecciona: PAGOEFECTIVO SOLES',
     instructions2: 'Ingresa tu código CIP: 9125682 y sigue los pasos'
+  },
+  {
+    id: 'banbif',
+    url: 'banbif.png',
+    instructions1: 'Selecciona la opción Pago de servicio',
+    instructions2: 'Ingresa tu código CIP: 9125682 y sigue los pasos'
   }
-]
+];
 
 const SectionPayOnline = () => (
-  <div>
+  <div className="place-pay">
     <span className="text">Selecciona dónde quieras pagar</span>
-    <CarouselPaceToPay />
+    <CarouselPlaceToPayC />
     <Instructions/>
   </div>
 )

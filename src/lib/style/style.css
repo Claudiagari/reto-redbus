@@ -1,6 +1,7 @@
 body {
-  padding: 20px;
+  padding: 0px;
   margin: 0;
+  box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
 }
 li {
@@ -28,18 +29,29 @@ ul.header li a {
   padding: 0;
   margin: 0;
 }
-.content li {
+.content > li {
   margin-bottom: 10px;
 }
 
 /* Sección lugares para pagar */
 .place-pay .text {
   display: block;
-  margin: 10px 0;
+  margin: 15px 0;
+  font-size: 12px;
+}
+.place-pay p.bold{
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 0;
+}
+.place-pay ul {
+  margin: 20px 0;
+  padding: 0;
 }
 .place-pay li {
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 25px;
 }
 .place-pay li img {
   margin: 10px 0;
@@ -52,4 +64,7 @@ ul.header li a {
 .instructions h6 {
   color: #eac758;
   font-weight: bold;
+}
+.instructions p {
+  font-size: 12px;
 }
