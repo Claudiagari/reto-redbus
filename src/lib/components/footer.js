@@ -15,7 +15,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="col-4 space  align-self-center text-center">
-        <span>Ayuda: <a href="" className="email"><span> contacto@redbus.pe</span></a></span>
+        <span>Ayuda: <a href="" className="email"><span>contacto@redbus.pe</span></a></span>
       </div>
       <div className="col-4 space row d-flex justify-content-center ">
         <div className="col-6 text-right align-self-center">
