@@ -1,12 +1,11 @@
 import React from "react";
+
 import {BrowserRouter as Router, Route, Link} from "react-router-dom";
 import Internet from './internet';
 import Efectivo from './efectivo';
 import logo from '../assets/images/pagoefectivo.png';
-import { Provider } from 'react-redux';
 
 const App = () => (
-  <Provider>
   <Router>
   <div>
     <div className="col-2">
@@ -22,7 +21,7 @@ const App = () => (
       </div>
   </div>
   </Router>
-  </Provider>
+  
 );
 
 export default App;

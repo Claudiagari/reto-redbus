@@ -1,6 +1,6 @@
 import React from 'react' ;
 import CarouselPaceToPay from './CarouselPlaceToPay';
-import Instructions from './Instructions'
+import ContainerInstruction from '../containers/Container-Instructions'
 
 /* Data según pago por internet */
 const dataOnline = [
@@ -41,7 +41,7 @@ const SectionPayOnline = () => (
     <span className="text">Selecciona dónde quieras pagar</span>
     <CarouselPaceToPay />
     <span className="text">Puedes paga desde la Web o App móvil del Banco</span>
-    <Instructions/>
+    <ContainerInstruction/>
   </div>
 )
 
