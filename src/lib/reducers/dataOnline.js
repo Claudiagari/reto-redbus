@@ -32,7 +32,7 @@ export default function () {
         },
         {
           id: 'banbif',
-          url: banbif.png,
+          url: banbif,
           instructions1: 'Selecciona la opción Pago de servicio',
           instructions2: 'Ingresa tu código CIP: 9125682 y sigue los pasos'
         }
