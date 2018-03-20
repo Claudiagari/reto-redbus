@@ -6,4 +6,5 @@ const Instructions = () => (
     <p>Selecciona la opción Pago de servicios > De Instituciones y Empresas > Busca por nombre > PAGOEFECTIVO > PAGOEFECTIVOSOLES.</p>
   </div>
 )
+
 export default Instructions

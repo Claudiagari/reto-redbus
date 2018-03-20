@@ -1,4 +1,21 @@
-.fa-print{
+.icon-printer{
   font-size: 60px;
   color: #e0aa00;
+  border:1px solid #e0aa00;
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
+}
+.footer{
+  margin:15px;
+}
+a.email{
+  font-weight: 700;
+  color: #e0aa00;
+}
+.col-6{
+  padding: 0px
+}
+.space{
+  padding: 20px;
 }
