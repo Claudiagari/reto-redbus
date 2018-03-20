@@ -13,13 +13,11 @@ const App = () => (
     <ul className="header">
       <li><Link to="/" className="active">Banca por internet</Link></li>
       <li><Link to="/efectivo" className="active">Pagar en efectivo</Link></li>
-      
     </ul>
     <div className="content"> 
     <Route exact path="/" component={Internet} />
     <Route path="/efectivo" component={Efectivo} />
-     
-    </div>
+      </div>
   </div>
   </Router>
 );
