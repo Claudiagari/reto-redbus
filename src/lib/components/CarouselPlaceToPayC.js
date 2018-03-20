@@ -5,25 +5,29 @@ import interbank from '../assets/images/interbank2.jpg';
 import scotiabank from '../assets/images/scotiabank.gif';
 import banbif from '../assets/images/banbif.png';
 
-const CarouselPlaceToPay = () => (
+const CarouselPlaceToPayC = () => (
   
     <ul>
       <li>
         <img src={bcp}/>
+        <p className="bold">Agentes y Bodegas </p>
+        <p className="bold">Agencias</p>
       </li>
       <li>
         <img src={bbva}/>
+        <p className="bold">Agentes y Bodegas </p>
+        <p className="bold">Agencias</p>
       </li>
       <li>
         <img src={interbank}/>
-      </li>
-      <li>
-      <img src={scotiabank}/>
+        <p className="bold">Agentes y Bodegas </p>
+        <p className="bold">Agencias</p>
       </li>
       <li>
         <img src={banbif}/>
+        <p className="bold">Agencias</p>
       </li>        
     </ul>
 )
 
-export default CarouselPlaceToPay
+export default CarouselPlaceToPayC
