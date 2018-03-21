@@ -6,12 +6,50 @@ import scotiabank from '../assets/images/scotiabank.gif';
 import banbif from '../assets/images/banbif.png';
 import Slider from 'react-slick'
 
+const css = [
+ 
+]
+function SampleNextArrow(props) {
+  const {className, style, onClick} = props
+  return (
+    <div
+      className={className}
+      style={{...style, display: 'block', background: 'red'}}
+      onClick={onClick}
+    ></div>
+  );
+}
+
+function SampleNext(props) {
+  const {onClick} = props
+  return (
+    <div onClick={onClick}
+      >
+      ---
+      
+    </div>
+  );
+}
+
+function SamplePrevArrow(props) {
+  const {className, style, onClick} = props
+  return (
+    <div
+      className={className}
+      style={{...style, display: 'block', background: 'green'}}
+      onClick={onClick}
+    ></div>
+  );
+}
+
 var settings = {
   arrows: true,
   infinite: true,
   speed: 500,
   slidesToShow: 4,
   slidesToScroll: 1,
+  nextArrow: <SampleNext />,
+  prevArrow: <SamplePrevArrow />
 };
 
 const CarouselPlaceToPayC = () => (
