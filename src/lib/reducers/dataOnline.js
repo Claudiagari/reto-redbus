@@ -10,13 +10,13 @@ export default function () {
           name: 'bcp',
           url: bcp,
           instructions1: 'Selecciona la opción Pago de servicios > EMPRESAS > PAGOEFECTIVO > PAGOEFECTIVOSOLES.',
-          instructions2: 'Ingresa tu código CIP: 9125682 y sigue los pasos'
+          instructions2: 'Ingresa tu código CIP: 9125682 y sigue los pasos',
         },
         {
           name: 'bbva',
           url: bbva,
           instructions1: 'Selecciona la opción Pago de servicios > De Instituciones y Empresas > Busca por nombre > PAGOEFECTIVO > PAGOEFECTIVOSOLES.',
-          instructions2: 'Ingresa tu código CIP: 9125682 y sigue los pasos'
+          instructions2: 'Ingresa tu código CIP: 9125682 y sigue los pasos',
         },
         {
           name: 'interbank',
@@ -33,7 +33,7 @@ export default function () {
         {
           name: 'banbif',
           url: banbif,
-          instructions1: 'Selecciona la opción Pago de servicio',
+          instructions1: 'Selecciona la opción Pago de servicio > Busca por Empresa y escribe PAGOEFECTIVO > Selecciona la empresa PAGOEFECTIVO',
           instructions2: 'Ingresa tu código CIP: 9125682 y sigue los pasos'
         }
       ];
