@@ -25,8 +25,7 @@ function SampleNext(props) {
   return (
     <div onClick={onClick}
       >
-      ---
-      
+      ---     
     </div>
   );
 }
@@ -40,7 +39,7 @@ function SamplePrevArrow(props) {
       onClick={onClick}
     ></div>
   );
-}
+} 
 
 var settings = {
   arrows: true,
