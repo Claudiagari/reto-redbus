@@ -1,6 +1,6 @@
 import React from 'react' ;
 import CarouselPlaceToPayC from './CarouselPlaceToPayC';
-import Instructions from './Instructions'
+import InstructionsCash from './InstructionsCash'
 
 /* Data según pago en efectivo */
 const dataCash = [
@@ -40,7 +40,7 @@ const SectionPayOnline = () => (
   <div className="place-pay">
     <span className="text">Selecciona dónde quieras pagar</span>
     <CarouselPlaceToPayC />
-    <Instructions/>
+    <InstructionsCash/>
   </div>
 )
 
