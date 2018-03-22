@@ -1,14 +1,7 @@
 import React from 'react';
-import bcp from '../assets/images/bcp.png';
-import bbva from '../assets/images/bbva.png';
-import interbank from '../assets/images/interbank2.jpg';
-import scotiabank from '../assets/images/scotiabank.gif';
-import banbif from '../assets/images/banbif.png';
-import Slider from 'react-slick'
+import CarrouselItemCash from './Carrousel-itemCash';
+import Slider from 'react-slick';
 
-const css = [
- 
-]
 function SampleNextArrow(props) {
   const {className, style, onClick} = props
   return (
@@ -47,36 +40,15 @@ var settings = {
   responsive:[ { breakpoint: 768, settings: { slidesToShow: 3 } } ]
 };
 
-const CarouselPlaceToPayC = () => (
+const CarouselPlaceToPayC = ({dataCash, onItemClick}) => (
     <Slider {...settings}>
-      <li className="text-center" >
-        <img src={bcp}/>
-        <p className="bold">Agentes y Bodegas </p>
-        <p className="bold">Agencias</p>
-      </li>
-      <li className="text-center">
-        <img src={bbva}/>
-        <p className="bold">Agentes y Bodegas </p>
-        <p className="bold">Agencias</p>
-      </li>
-      <li className="text-center">
-        <img src={interbank}/>
-        <p className="bold">Agentes y Bodegas </p>
-        <p className="bold">Agencias</p>
-      </li>
-      <li className="text-center">
-        <img src={banbif}/>
-        <p className="bold">Agencias</p>
-      </li> 
-      <li className="text-center">
-      <img src={interbank}/>
-      <p className="bold">Agentes y Bodegas </p>
-      <p className="bold">Agencias</p>
-    </li>
-    <li className="text-center">
-      <img src={banbif}/>
-      <p className="bold">Agencias</p>
-    </li>               
+      {dataCash.map( placepayC =>
+      <CarrouselItemCash  
+        key = {placepayC.name}
+        onClick = {() => onItemClick(placepayC)}
+        {...placepayC}
+     />
+      )}       
     </Slider>
 )
 
