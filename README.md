@@ -12,7 +12,7 @@
 
 ## Descubrimiento.
 ## Research
-- El reto ya esta puesto en marcha, por lo tanto no podremos profundizar en el reseach, sin embargo en el bechMarking queda claro que RedBus tiene muchos competidores que al mismo tiempo, llegan a ser sus socios estrategicos, detallo grafica.
+- El reto ya esta puesto en marcha, por lo tanto no podremos profundizar en el reseach, sin embargo en el benchMarking queda claro que RedBus tiene muchos competidores que al mismo tiempo, llegan a ser sus socios estratégicos, detallo gráfica.
 
 
 
