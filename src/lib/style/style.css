@@ -157,3 +157,6 @@ ul.header li a {
 span.bold{
   font-size: 10px;
 }
+.span span {
+  color:transparent;
+} 
