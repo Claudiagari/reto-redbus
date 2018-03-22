@@ -3,19 +3,26 @@ import CarrouselItem from './Carrousel-item';
 import Slider from 'react-slick';
 
 function SampleNext(props) {
-  const {onClick} = props
+  const {className, style, onClick} = props
   return (
-    <span className="chevron-r-internet" onClick={onClick}><i className="fas fa-chevron-right"></i>
-    </span>
+    <div className={className }
+    style={{...style, top:'8%'}}
+    onClick={onClick}><i className="fas fa-chevron-right"></i>
+    </div>
   );
 }
+
 function SamplePrevArrow(props) {
-  const { onClick} = props
+  const {className, style, onClick} = props
   return (
-    <span className="chevron-l" onClick={onClick}><i className="fas fa-chevron-left"></i>
-    </span>
+    <div
+      className={className }
+      style={{...style, top:'8%'}}
+      onClick={onClick}
+    ><i className="fas fa-chevron-left"></i></div>
   );
-} 
+}
+
 var settings = {
   arrows:true,
   infinite: true,
@@ -27,9 +34,8 @@ var settings = {
   responsive:[ { breakpoint: 768, settings: { slidesToShow: 3 } } ]
 };
 
-
 const CarouselPlaceToPay = ({dataOnline, onItemClick}) => (
-  <Slider {...settings}>
+  <Slider className="ul" {...settings}>
      {dataOnline.map( placepay =>
       <CarrouselItem  key = {placepay.name}
       onClick = {() => onItemClick(placepay)}

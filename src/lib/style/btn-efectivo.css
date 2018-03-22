@@ -21,7 +21,7 @@ a:hover{
   border-radius: 0.3rem
 }
 a.btn-lg ,span{
-  font-size: 16px;
+  font-size: 12px;
 }
 @media (min-width:768px){
   a.btn-lg ,span {

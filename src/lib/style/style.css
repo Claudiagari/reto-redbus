@@ -79,7 +79,7 @@ ul.header li a {
   margin-top: 10px; 
   display: inline-block;
 }
-.slick-slide img {
+.slick-slider img {
  display: inline-block; 
 }
 .chevron-r{
@@ -115,7 +115,22 @@ span.bold{
   font-weight: bold;
   line-height: 0;
 }
+span.bold{
+  font-size: 10px;
+}
+.span span {
+  color:transparent;
+} 
+.ul .slick-track{
+  height: 70px;
+}
+.content{
+  padding: 0px;
+}
 @media (min-width:768px){
+  .content{
+    padding: 20px;
+  }
   ul.header li a {
     padding: 20px;
     font-size: 16px;
@@ -133,8 +148,7 @@ span.bold{
     top:8%;
     z-index: 1000;
   }
-  
-  .fa-chevron-left{
+   .fa-chevron-left{
     font-size:50px;
     color: #e0aa00
   }
@@ -167,12 +181,6 @@ span.bold{
     font-size: 12px;
   }
   }
-
-
-span.bold{
-  font-size: 10px;
-}
-.span span {
-  color:transparent;
-} 
-
+ div.place-pay{
+   padding: 0 20px;
+ }
