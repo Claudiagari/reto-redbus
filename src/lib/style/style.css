@@ -68,6 +68,19 @@ ul.header li a {
 .instructions p {
   font-size: 12px;
 }
+.instructions strong {
+  font-size: 8px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  padding:2px;
+  color: #eac758;
+  border: 2px solid #eac758;
+  border-radius: 50%;
+}
+.instructions span {
+  font-size: 12px;
+}
 .instruction3 {
   margin-top: 10px;
 }
@@ -138,10 +151,9 @@ ul.header li a {
   }
 }
 
-.ul-carousel {
-  
+.right{
+  margin-left: 65px;
 }
-
-.li-carousel {
-  height: 112px;
+span.bold{
+  font-size: 10px;
 }
