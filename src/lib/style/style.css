@@ -130,7 +130,7 @@ span.bold{
   .chevron-l{
     position:absolute;
     left: 25px;
-    top:15%;
+    top:8%;
     z-index: 1000;
   }
   
@@ -167,3 +167,12 @@ span.bold{
     font-size: 12px;
   }
   }
+
+
+span.bold{
+  font-size: 10px;
+}
+.span span {
+  color:transparent;
+} 
+

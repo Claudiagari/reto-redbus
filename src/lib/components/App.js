@@ -6,6 +6,7 @@ import logo from '../assets/images/pagoefectivo.png';
 
 const App = () => (
   <Router>
+  
   <div className="container">
     <div className="row">
     <div className="col-6 col-md-2">

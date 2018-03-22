@@ -3,20 +3,25 @@ import CarrouselItemCash from './Carrousel-itemCash';
 import Slider from 'react-slick';
 
 function SampleNext(props) {
-  const {onClick} = props
+  const {className, style, onClick} = props
   return (
-    <span className="chevron-r" onClick={onClick}><i className="fas fa-chevron-right"></i>
-    </span>
+    <div className={className }
+    style={{...style, top:'8%'}}
+    onClick={onClick}><i className="fas fa-chevron-right"></i>
+    </div>
   );
 }
 
 function SamplePrevArrow(props) {
-  const { onClick} = props
+  const {className, style, onClick} = props
   return (
-    <span className="chevron-l" onClick={onClick}><i className="fas fa-chevron-left"></i>
-    </span>
+    <div
+      className={className }
+      style={{...style, top:'8%'}}
+      onClick={onClick}
+    ><i className="fas fa-chevron-left"></i></div>
   );
-} 
+}
 
 var settings = {
   arrows:true,
