@@ -1,5 +1,5 @@
 .info{
-  padding:10px 5px;
+  padding:10px 0px;
 }
 .codigo{
   background: #e0aa00;
@@ -19,15 +19,23 @@
   border-radius: 0px 8px 8px 0px;
 }
 .icon-alarmclock{
-  font-size: 30px
+  font-size: 23px
 }
-.info p, .info h3 ,.info h4 , .info h5{
-  font-size: 10px
+.info p , .info strong{
+  font-size: 10px;
+  margin-bottom: 0px;
+}
+.info strong{
+  font-size: 8px;
+}
+.expire {
+  line-height: 8px
 }
 .expire{
-
   padding: 0 5px
-
+}
+.info-compra .fecha .col-3{
+  padding: 0px 8px;
 }
 @media (min-width:768px){
   .info p{
@@ -47,6 +55,12 @@
   }
   .icon-alarmclock{
     font-size: 60px
+  }
+  .info strong{
+    font-size: 1.25rem
+  }
+  .expire {
+    line-height: 1.5rem
   }
 }
 
