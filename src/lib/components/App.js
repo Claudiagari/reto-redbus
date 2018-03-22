@@ -6,9 +6,12 @@ import logo from '../assets/images/pagoefectivo.png';
 
 const App = () => (
   <Router>
-  <div class="container">
+  
+  <div className="container">
+    <div className="row">
     <div className="col-6 col-md-2">
       <img className="img-fluid" src={logo} alt="logo" />
+    </div>
     </div>
     <ul className="header ">
       <li><Link to="/" className="active">Banca por internet</Link></li>

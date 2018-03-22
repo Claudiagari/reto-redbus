@@ -24,6 +24,8 @@ export default function () {
           url: bbva,
           instructions1: 'Indica que vas a realizar un pago a la empresa PAGOEFECTIVO',
           instructions2: 'Indica el Código CIP: 9125682 y el importe a pagar en Soles.',
+          instructions3: '',
+          instructions4: '',
           typeEntity: 'Agentes y Bodegas',
           typeEntity2: 'Agencias'
         },
@@ -42,6 +44,8 @@ export default function () {
           url: banbif,
           instructions1: 'Indica que vas a realizar un pago a la empresa PAGOEFECTIVO',
           instructions2: 'Indica el Código CIP: 9125682 y el importe a pagar en Soles.',
+          instructions3: '',
+          instructions4: '',
           typeEntity: 'Agencias'
         },
         {
@@ -50,6 +54,7 @@ export default function () {
             instructions1: 'Indica que vas a realizar un pago a la empresa PAGOEFECTIVO',
             instructions2: 'Indica el Código CIP: 9125682 y el importe a pagar en Soles.',
             instructions3: 'Encuentra a Full Carga en Bodegas, Farmacia, cabinas de Internet y Locutorios.',
+            instructions4: '',
             typeEntity: 'Agentes y Bodegas'
           },
         {
@@ -57,6 +62,8 @@ export default function () {
             url: scotiabank,
             instructions1: 'Indica que vas a realizar un pago a la empresa PAGOEFECTIVO',
             instructions2: 'Indica el Código CIP: 9125682 y el importe a pagar en Soles.',
+            instructions3: '',
+            instructions4: '',
             typeEntity: 'Agentes y Bodegas',
             typeEntity2: 'Agencias'
           },
@@ -65,6 +72,8 @@ export default function () {
             url: western,
             instructions1: 'Indica que vas a realizar un pago a la empresa PAGOEFECTIVO',
             instructions2: 'Indica el Código CIP: 9125682 y el importe a pagar en Soles.',
+            instructions3: '',
+            instructions4: '',
             typeEntity: 'Agentes y Bodegas'
           },
           {
@@ -72,6 +81,8 @@ export default function () {
             url: kasnet,
             instructions1: 'Indica que vas a realizar un pago a la empresa PAGOEFECTIVO',
             instructions2: 'Indica el Código CIP: 9125682 y el importe a pagar en Soles.',
+            instructions3: '',
+            instructions4: '',
             typeEntity: 'Agentes y Bodegas'
           }
       ];
