@@ -1,11 +1,11 @@
 import React from 'react';
 
-const InstructionsCash = ({dataInstructions}) => (
+const InstructionsCash = ({dataInstructionsCash}) => (
   <div className="instructions">
     <h6>Instrucciones de pago</h6>
-    <p>hola</p>
-    <p>Hola</p>
-    <p className="instruction3">Hola</p>
+    <p>{dataInstructionsCash.instructions1}</p>
+    <p>{dataInstructionsCash.instructions2}</p>
+    <p className="instruction3">{dataInstructionsCash.instructions3}</p>
   </div>
 )
 
