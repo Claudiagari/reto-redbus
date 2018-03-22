@@ -34,7 +34,7 @@ function SamplePrevArrow(props) {
     <span className="chevron-l" onClick={onClick}><i className="fas fa-chevron-left"></i>
     </span>
   );
-}
+} 
 
 var settings = {
   arrows:true,
