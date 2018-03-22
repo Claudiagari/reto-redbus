@@ -6,7 +6,7 @@ import logo from '../assets/images/pagoefectivo.png';
 
 const App = () => (
   <Router>
-  <div>
+  <div class="container">
     <div className="col-6 col-md-2">
       <img className="img-fluid" src={logo} alt="logo" />
     </div>
