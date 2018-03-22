@@ -22,12 +22,6 @@ ul.header li a {
   display: inline-block;
   font-size: 12px
 }
-@media (min-width:768px){
-ul.header li a {
-  padding: 20px;
-  font-size: 16px;
-}
-}
 .content {
   background-color: #FFF;
   padding: 20px;
@@ -66,7 +60,7 @@ ul.header li a {
   font-weight: bold;
 }
 .instructions p {
-  font-size: 12px;
+  font-size: 10px;
 }
 .instructions strong {
   font-size: 8px;
@@ -82,7 +76,8 @@ ul.header li a {
   font-size: 12px;
 }
 .instruction3 {
-  margin-top: 10px;
+  margin-top: 10px; 
+  display: inline-block;
 }
 .slick-slide img {
  display: inline-block; 
@@ -108,7 +103,23 @@ ul.header li a {
   top:50%;
   z-index: 1000;
 }
-@media(min-width:768px){
+span.bold{
+  font-size: 10px;
+}
+.span span {
+  color:transparent;
+} 
+.place-pay p.bold{
+  text-align: center;
+  font-size: 8px;
+  font-weight: bold;
+  line-height: 0;
+}
+@media (min-width:768px){
+  ul.header li a {
+    padding: 20px;
+    font-size: 16px;
+  }
   .chevron-r{
     position: absolute;
     right: 25px;
@@ -142,21 +153,26 @@ ul.header li a {
     display: inline-block;
     padding: 0 25px;
   }
-
+  
   .place-pay p.bold{
     text-align: center;
     font-size: 10px;
     font-weight: bold;
     line-height: 0;
   }
-}
+  .right{
+    margin-left: 65px;
+  }
+  .instructions p {
+    font-size: 12px;
+  }
+  }
 
-.right{
-  margin-left: 65px;
-}
+
 span.bold{
   font-size: 10px;
 }
 .span span {
   color:transparent;
 } 
+
