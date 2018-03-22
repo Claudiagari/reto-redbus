@@ -30,7 +30,7 @@ var settings = {
 };
 
 const CarouselPlaceToPayC = ({dataCash, onItemClick}) => (
-    <Slider {...settings}>
+    <Slider {...settings} className="row d-flex justify-content-center">
       {dataCash.map( placepayC =>
       <CarrouselItemCash  
         key = {placepayC.name}

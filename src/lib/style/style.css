@@ -45,12 +45,7 @@ ul.header li a {
   margin: 15px 0;
   font-size: 12px;
 }
-.place-pay p.bold{
-  text-align: center;
-  font-size: 8px;
-  font-weight: bold;
-  line-height: 0;
-}
+
 .place-pay ul {
   margin: 20px 0;
   padding: 0;
@@ -93,10 +88,11 @@ ul.header li a {
  display: inline-block; 
 }
 .chevron-r{
-  position: absolute;
+  display: inline-block;
   right: -15px;
   top:35%;
   z-index: 1000;
+  margin: 0 5px;
 }
 .fa-chevron-right{
   font-size:25px;
@@ -146,6 +142,7 @@ ul.header li a {
     display: inline-block;
     padding: 0 25px;
   }
+
   .place-pay p.bold{
     text-align: center;
     font-size: 10px;
@@ -153,6 +150,7 @@ ul.header li a {
     line-height: 0;
   }
 }
+
 .right{
   margin-left: 65px;
 }
