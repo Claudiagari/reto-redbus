@@ -1,27 +1,12 @@
-# RedBUS
+# RedBus
 
 ![image](https://user-images.githubusercontent.com/32305619/37770181-883ef242-2da1-11e8-8b55-98011a2bc951.png)
 
 
+## Objetivo
+- Maquetar y dar funcionalidad a una página responsiva de conrmación de la pasarela Pago Efectivo, la página brindara mayor conversión a las ventas realizadas en Pago Efectivo y Banca Online.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# ReduxSimpleStarter
+#
 
 
 Interested in learning [Redux](https://www.udemy.com/react-redux/)?
