@@ -1,5 +1,5 @@
 import React from "react";
-import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+import {BrowserRouter as Router, Route, Link, NavLink} from "react-router-dom";
 import Internet from './internet';
 import Efectivo from './efectivo';
 import logo from '../assets/images/pagoefectivo.png';
@@ -14,8 +14,8 @@ const App = () => (
     </div>
     </div>
     <ul className="header ">
-      <li><Link to="/" className="active">Banca por internet</Link></li>
-      <li><Link to="/efectivo" className="active">Pagar en efectivo</Link></li>
+      <li><NavLink  exact className= "title" activeStyle={{fontWeight: 'bold', color: '#e0aa00',border:'1px solid #e0aa00', borderRadius:'5px', borderBottom:'0px'}} to="/" >Banca por internet</NavLink></li>
+      <li><NavLink className= "title" activeStyle={{fontWeight: 'bold',color: '#e0aa00',border:'1px solid #e0aa00', borderRadius:'5px', borderBottom:'0px'}} to="/efectivo" >Pagar en efectivo</NavLink></li>
     </ul>
     <div className="content"> 
     <Route exact path="/" component={Internet} />
