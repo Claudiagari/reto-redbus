@@ -58,14 +58,14 @@ ul.header li a {
 }
 .place-pay li {
   display: inline-block;
-  padding: 0 25px;
+  padding: 0 5px;
 }
 .place-pay li img {
-  margin: 10px 0;
+ margin: 10px 0;
   border: 1px solid #eac758;
   padding: 5px;
-  width: 150px;
-  height: 60px;
+  width: 90px;
+  height: 40px;
 }
 
 .instructions h6 {
@@ -77,4 +77,54 @@ ul.header li a {
 }
 .instruction3 {
   margin-top: 10px;
+}
+.slick-slide img {
+ display: inline-block; 
+}
+.chevron-r{
+  position: absolute;
+  right: -15px;
+  top:35%;
+  z-index: 1000;
+}
+.fa-chevron-right{
+  font-size:25px;
+  color: #e0aa00
+}
+.fa-chevron-left{
+  font-size:0px;
+  color: #e0aa00
+}
+@media(min-width:768px){
+  .chevron-r{
+    position: absolute;
+    right: 25px;
+    top:15%;
+    z-index: 1000;
+  }
+  .chevron-l{
+    position:absolute;
+    left: 25px;
+    top:15%;
+    z-index: 1000;
+  }
+  .fa-chevron-left{
+    font-size:50px;
+    color: #e0aa00
+  }
+  .fa-chevron-right{
+    font-size:50px;
+    color: #e0aa00
+  }
+  .place-pay li img {
+    margin: 10px 0;
+     border: 1px solid #eac758;
+     padding: 5px;
+     width: 150px;
+     height: 60px;
+  }
+  .place-pay li {
+    display: inline-block;
+    padding: 0 25px;
+  }
 }

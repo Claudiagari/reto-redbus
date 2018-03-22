@@ -23,62 +23,57 @@ function SampleNextArrow(props) {
 function SampleNext(props) {
   const {onClick} = props
   return (
-    <div onClick={onClick}
-      >
-      ---     
-    </div>
+    <span className="chevron-r" onClick={onClick}><i className="fas fa-chevron-right"></i>
+    </span>
   );
 }
 
 function SamplePrevArrow(props) {
-  const {className, style, onClick} = props
+  const { onClick} = props
   return (
-    <div
-      className={className}
-      style={{...style, display: 'block', background: 'green'}}
-      onClick={onClick}
-    ></div>
+    <span className="chevron-l" onClick={onClick}><i className="fas fa-chevron-left"></i>
+    </span>
   );
 } 
 
 var settings = {
-  arrows: true,
+  arrows:true,
   infinite: true,
   speed: 500,
   slidesToShow: 4,
   slidesToScroll: 1,
   nextArrow: <SampleNext />,
-  prevArrow: <SamplePrevArrow />
+  prevArrow: <SamplePrevArrow />,
+  responsive:[ { breakpoint: 768, settings: { slidesToShow: 3 } } ]
 };
 
 const CarouselPlaceToPayC = () => (
-  
     <Slider {...settings}>
-      <li>
+      <li className="text-center" >
         <img src={bcp}/>
         <p className="bold">Agentes y Bodegas </p>
         <p className="bold">Agencias</p>
       </li>
-      <li>
+      <li className="text-center">
         <img src={bbva}/>
         <p className="bold">Agentes y Bodegas </p>
         <p className="bold">Agencias</p>
       </li>
-      <li>
+      <li className="text-center">
         <img src={interbank}/>
         <p className="bold">Agentes y Bodegas </p>
         <p className="bold">Agencias</p>
       </li>
-      <li>
+      <li className="text-center">
         <img src={banbif}/>
         <p className="bold">Agencias</p>
       </li> 
-      <li>
+      <li className="text-center">
       <img src={interbank}/>
       <p className="bold">Agentes y Bodegas </p>
       <p className="bold">Agencias</p>
     </li>
-    <li>
+    <li className="text-center">
       <img src={banbif}/>
       <p className="bold">Agencias</p>
     </li>               

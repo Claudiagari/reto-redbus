@@ -1,5 +1,5 @@
 .info{
-  padding: 5px;
+  padding:10px 5px;
 }
 .codigo{
   background: #e0aa00;
@@ -9,6 +9,7 @@
 }
 .total {
  background:  #f6f4f4;
+ border: 1px solid #f6f4f4;
  color: #000;
 }
 .fecha{
@@ -24,11 +25,13 @@
   font-size: 10px
 }
 .expire{
-  padding: 5px
+
+  padding: 0 5px
+
 }
 @media (min-width:768px){
   .info p{
-    font-size: 1rem
+    font-size: 1.75rem
   }
   .info h3{
     font-size: 1.75rem
@@ -36,8 +39,8 @@
   .info h4 {
     font-size: 1.5rem
   }
-  .info h5{
-    font-size: 1.25rem
+  .expire p{
+    font-size: 1rem
   }
   .info{
     padding: 20px;
@@ -46,3 +49,4 @@
     font-size: 60px
   }
 }
+

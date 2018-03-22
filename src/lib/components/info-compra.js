@@ -6,25 +6,22 @@ import '../assets/icons/style.css'
 const InfoCompra =() => (
   <div className="container">
     <div className="row info-compra">
-      <div className="col-5 col-md-4 text-center info codigo">
-        <p>Código de pago</p>
-        <h3><strong>9125682</strong></h3>
-      </div>
-      <div className="col-2 col-md-4 text-center info total">
-        <h4><strong>Total</strong></h4>
-        <h4>S/.140.00</h4>
+      <div className="col-5 col-md-4 text-center info codigo align-self-center">
+        <p>Código de pago <br/> <strong>9125682</strong></p>
+        </div>
+      <div className="col-2 col-md-4 text-center info total align-self-center">
+        <p><strong>Total</strong><br/>S/.140.00</p>
       </div>  
-      <div className="col-5 col-md-4 text-center info fecha align-middle">
-        <div className="row">
-          <div className=" col-3 col-md-4 align-middle">
+      <div className="col-5  col-md-4  text-center info fecha row d-flex justify-content-center">
+
+          <div className=" col-3 col-md-4  align-self-center">
           <span className="icon-alarmclock"></span>
           </div>
-          <div className="col-9 col-md-8 align-middle expire">
+          <div className="col-9 col-md-8 align-self-center expire">
             <p>Tu orden expirará : <br/><strong>23 Feb - 01:12 p.m.</strong></p>
-           
-          </div>
+         </div>
         </div>
-      </div>
+     
     </div>
   </div>
 )
