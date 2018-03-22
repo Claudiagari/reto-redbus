@@ -3,7 +3,7 @@ import bbva from '../assets/images/bbva.png';
 import interbank from '../assets/images/interbank2.jpg';
 import scotiabank from '../assets/images/scotiabank.gif';
 import banbif from '../assets/images/banbif.png';
-import fullcarga from '../assets/images/full-carga.png';
+import fullcarga from '../assets/images/full-carga.jpg';
 import western from '../assets/images/western-union.png';
 import kasnet from '../assets/images/kasnet.png';
 

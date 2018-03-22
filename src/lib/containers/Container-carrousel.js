@@ -1,6 +1,6 @@
 import {connect} from 'react-redux';
 import CarouselPlaceToPay from '../components/CarouselPlaceToPay';
-import selectItem from '../actions/index'
+import {selectItem} from '../actions/index'
 import {bindActionCreators} from 'redux'
 
 
