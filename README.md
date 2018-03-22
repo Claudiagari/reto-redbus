@@ -54,7 +54,7 @@
 ### TESTEO.
 
 ### PROTOTIPO
-https://marvelapp.com/14gdic76/screen/39992875
+
 
 
 
