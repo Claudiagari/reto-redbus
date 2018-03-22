@@ -39,7 +39,6 @@ ul.header li a {
 .content > li {
   margin-bottom: 10px;
 }
-
 /* Sección lugares para pagar */
 .place-pay .text {
   display: block;
@@ -48,7 +47,7 @@ ul.header li a {
 }
 .place-pay p.bold{
   text-align: center;
-  font-size: 10px;
+  font-size: 8px;
   font-weight: bold;
   line-height: 0;
 }
@@ -67,7 +66,6 @@ ul.header li a {
   width: 90px;
   height: 40px;
 }
-
 .instructions h6 {
   color: #eac758;
   font-weight: bold;
@@ -95,6 +93,12 @@ ul.header li a {
   font-size:0px;
   color: #e0aa00
 }
+.chevron-r-internet{
+  position:absolute;
+  right: 5px;
+  top:50%;
+  z-index: 1000;
+}
 @media(min-width:768px){
   .chevron-r{
     position: absolute;
@@ -102,12 +106,14 @@ ul.header li a {
     top:15%;
     z-index: 1000;
   }
+  
   .chevron-l{
     position:absolute;
     left: 25px;
     top:15%;
     z-index: 1000;
   }
+  
   .fa-chevron-left{
     font-size:50px;
     color: #e0aa00
@@ -126,5 +132,11 @@ ul.header li a {
   .place-pay li {
     display: inline-block;
     padding: 0 25px;
+  }
+  .place-pay p.bold{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 0;
   }
 }

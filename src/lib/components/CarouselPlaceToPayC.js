@@ -2,17 +2,6 @@ import React from 'react';
 import CarrouselItemCash from './Carrousel-itemCash';
 import Slider from 'react-slick';
 
-function SampleNextArrow(props) {
-  const {className, style, onClick} = props
-  return (
-    <div
-      className={className}
-      style={{...style, display: 'block', background: 'red'}}
-      onClick={onClick}
-    ></div>
-  );
-}
-
 function SampleNext(props) {
   const {onClick} = props
   return (

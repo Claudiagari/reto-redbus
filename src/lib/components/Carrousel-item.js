@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Item = ({url, name, onClick})=>(
-  <li onClick={onClick}>
+  <li className="text-center" onClick={onClick}>
     <img src={url} alt={name}/>
   </li>
 )
