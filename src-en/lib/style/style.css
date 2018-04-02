@@ -1,0 +1,186 @@
+body {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+li {
+  list-style-type: none;
+}
+ul.header li {
+  display: inline;
+  margin: 0;
+}
+ul.header {
+  border-bottom: 1px solid #eac758;
+}
+ul.header li a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 5px;
+  display: inline-block;
+  font-size: 12px
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content > li {
+  margin-bottom: 10px;
+}
+/* Sección lugares para pagar */
+.place-pay .text {
+  display: block;
+  margin: 15px 0;
+  font-size: 12px;
+}
+
+.place-pay ul {
+  margin: 20px 0;
+  padding: 0;
+}
+.place-pay li {
+  display: inline-block;
+  padding: 0 5px;
+}
+.place-pay li img {
+ margin: 10px 0;
+  border: 1px solid #eac758;
+  padding: 5px;
+  width: 90px;
+  height: 40px;
+}
+.instructions h6 {
+  color: #eac758;
+  font-weight: bold;
+}
+.instructions p {
+  font-size: 10px;
+}
+.instructions strong {
+  font-size: 8px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  padding:2px;
+  color: #eac758;
+  border: 2px solid #eac758;
+  border-radius: 50%;
+}
+.instructions span {
+  font-size: 12px;
+}
+.instruction3 {
+  margin-top: 10px; 
+  display: inline-block;
+}
+.slick-slider img {
+ display: inline-block; 
+}
+.chevron-r{
+  display: inline-block;
+  right: -15px;
+  top:35%;
+  z-index: 1000;
+  margin: 0 5px;
+}
+.fa-chevron-right{
+  font-size:25px;
+  color: #e0aa00
+}
+.fa-chevron-left{
+  font-size:0px;
+  color: #e0aa00
+}
+.chevron-r-internet{
+  position:absolute;
+  right: 5px;
+  top:50%;
+  z-index: 1000;
+}
+span.bold{
+  font-size: 10px;
+}
+.span span {
+  color:transparent;
+} 
+.place-pay p.bold{
+  text-align: center;
+  font-size: 8px;
+  font-weight: bold;
+  line-height: 0;
+}
+span.bold{
+  font-size: 10px;
+}
+.span span {
+  color:transparent;
+} 
+.ul .slick-track{
+  height: 70px;
+}
+.content{
+  padding: 0px;
+}
+@media (min-width:768px){
+  .content{
+    padding: 20px;
+  }
+  ul.header li a {
+    padding: 20px;
+    font-size: 16px;
+  }
+  .chevron-r{
+    position: absolute;
+    right: 25px;
+    top:15%;
+    z-index: 1000;
+  }
+  
+  .chevron-l{
+    position:absolute;
+    left: 25px;
+    top:8%;
+    z-index: 1000;
+  }
+   .fa-chevron-left{
+    font-size:50px;
+    color: #e0aa00
+  }
+  .fa-chevron-right{
+    font-size:50px;
+    color: #e0aa00
+  }
+  .place-pay li img {
+    margin: 10px 0;
+     border: 1px solid #eac758;
+     padding: 5px;
+     width: 150px;
+     height: 60px;
+  }
+  .place-pay li {
+    display: inline-block;
+    padding: 0 25px;
+  }
+  
+  .place-pay p.bold{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 0;
+  }
+  .right{
+    margin-left: 65px;
+  }
+  .instructions p {
+    font-size: 12px;
+  }
+  }
+ div.place-pay{
+   padding: 0 20px;
+ }
