@@ -52,10 +52,14 @@ http://techcetera.co/las-grandes-empresas-apuestan-por-invertir-en-ux/
 
 #### Prototipo DESKTOP.
 ![plantillatiket](https://user-images.githubusercontent.com/32305619/38238065-5faa3e12-36ee-11e8-8b7d-2db490ce5933.png)
+
 ![plantillatiketingles](https://user-images.githubusercontent.com/32305619/38238074-65285c0c-36ee-11e8-9a2a-1a77b74beca9.png)
+
+![mobileei](https://user-images.githubusercontent.com/32305619/38242268-fe559290-36f9-11e8-966e-5e3825db15be.png)
 
 #### Prototipo Impresión.
 ![pdf](https://user-images.githubusercontent.com/32305619/38238086-6c5304f0-36ee-11e8-8d2b-9a866a3d459c.png)
+
 ![imprs1](https://user-images.githubusercontent.com/32305619/38238087-7199e546-36ee-11e8-9e9d-5e530c76be20.png)
 
 ![detalleimpresion1](https://user-images.githubusercontent.com/32305619/38177447-435366e4-35c7-11e8-8ccf-8d17cfad24af.png)
