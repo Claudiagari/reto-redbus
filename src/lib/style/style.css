@@ -127,6 +127,9 @@ span.bold{
 .content{
   padding: 0px;
 }
+.img-agents:hover ,.img-agents:active {
+  border:2px solid #e0aa00
+}
 @media (min-width:768px){
   .content{
     padding: 20px;

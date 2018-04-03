@@ -9,7 +9,7 @@
 .footer{
   margin:15px;
 }
-a.email{
+a.email, a.email:hover{
   font-weight: 700;
   color: #e0aa00;
 }
