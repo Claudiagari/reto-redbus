@@ -1,0 +1,13 @@
+.selectLanguaje li{
+  display: inline-block;
+  padding: 10px;
+  float: right;
+  margin-top: 10px;
+}
+.selectLanguaje li a {
+  color: #eac758;
+  text-decoration:none; 
+}
+.selectLanguaje li a:hover{
+  color: #eac758;
+}
