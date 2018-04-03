@@ -50,6 +50,9 @@ http://techcetera.co/las-grandes-empresas-apuestan-por-invertir-en-ux/
 
 ![easyjets](https://user-images.githubusercontent.com/32305619/38237865-f2ef8bec-36ed-11e8-9b41-3bc24e9c3101.png)
 
+#### Bechmarking Tikets
+
+![bechmarkin tikets](https://user-images.githubusercontent.com/32305619/38270511-39356b20-3749-11e8-81c1-7233b74fd6bf.png)
 
 #### Comparación tiket actual vs Propuesta.
 ![comparacionpagoe](https://user-images.githubusercontent.com/32305619/38267996-a0df6eb2-3742-11e8-98b1-f9edd072ac59.png)
