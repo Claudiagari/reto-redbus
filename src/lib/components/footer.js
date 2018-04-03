@@ -11,7 +11,7 @@ const Footer = () => (
           <span>Instrucciones vía </span>
         </div>
         <div className="col-6 text-left">
-          <a href=""><i className="icon-printer"></i></a>
+          <a href="mailto:contacto@redbus.pe"><i className="icon-printer"></i></a>
         </div>
       </div>
       <div className="col-6 col-md-4 space  align-self-center text-center">
