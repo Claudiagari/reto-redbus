@@ -10,4 +10,10 @@
 }
 .selectLanguaje li a:hover{
   color: #eac758;
+  font-weight: 700
+}
+@media (max-width:768px){
+  .selectLanguaje li a{
+    font-size: 8px;
+  }
 }
