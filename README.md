@@ -58,7 +58,12 @@ http://techcetera.co/las-grandes-empresas-apuestan-por-invertir-en-ux/
 #### Que opinaron los usuarios de la propuesta
 ![untitled](https://user-images.githubusercontent.com/32305619/38269562-85b40fcc-3746-11e8-9324-dcc9a5e2cae8.jpg)
 
-_Los usuarios entrvistados fueron 7 de los cuales 5 fueron a quienes les gusto la propuesta, 2 de ellos eligieron quedarse con el tiket actual.
+** Los usuarios entrevistados fueron 7 de los cuales 5 fueron a quienes les gusto la propuesta, 2 de ellos eligieron quedarse con el tiket actual.
+
+
+#### Entrevistados.
+![fotosentrevista](https://user-images.githubusercontent.com/32305619/38269895-7064aac2-3747-11e8-8d20-1e1d71d7099e.png)
+
 #### Prototipo DESKTOP.
 ![plantillatiket](https://user-images.githubusercontent.com/32305619/38238065-5faa3e12-36ee-11e8-8b7d-2db490ce5933.png)
 
