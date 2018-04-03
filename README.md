@@ -19,7 +19,7 @@
 - Principal-Usuarios.
 ## Investigación.
 ## Research
-### BenchMarking
+### BenchMarking 
 - Queda claro que RedBus tiene muchos competidores que al mismo tiempo, llegan a ser sus socios estratégicos, detallo gráfica.
 
 ![Imagenes](img/plantllabechmarking.jpg) 
@@ -50,11 +50,21 @@ http://techcetera.co/las-grandes-empresas-apuestan-por-invertir-en-ux/
 
 ![easyjets](https://user-images.githubusercontent.com/32305619/38237865-f2ef8bec-36ed-11e8-9b41-3bc24e9c3101.png)
 
+
+#### Comparación tiket actual vs Propuesta.
+![comparacionpagoe](https://user-images.githubusercontent.com/32305619/38267996-a0df6eb2-3742-11e8-98b1-f9edd072ac59.png)
+
+
+#### Que opinaron los usuarios de la propuesta
+![untitled](https://user-images.githubusercontent.com/32305619/38269562-85b40fcc-3746-11e8-9324-dcc9a5e2cae8.jpg)
+
+_Los usuarios entrvistados fueron 7 de los cuales 5 fueron a quienes les gusto la propuesta, 2 de ellos eligieron quedarse con el tiket actual.
 #### Prototipo DESKTOP.
 ![plantillatiket](https://user-images.githubusercontent.com/32305619/38238065-5faa3e12-36ee-11e8-8b7d-2db490ce5933.png)
 
 ![plantillatiketingles](https://user-images.githubusercontent.com/32305619/38238074-65285c0c-36ee-11e8-9a2a-1a77b74beca9.png)
 
+#### Prototipo Mobile.
 ![mobileei](https://user-images.githubusercontent.com/32305619/38242268-fe559290-36f9-11e8-966e-5e3825db15be.png)
 
 #### Prototipo Impresión.
@@ -63,6 +73,9 @@ http://techcetera.co/las-grandes-empresas-apuestan-por-invertir-en-ux/
 ![imprs1](https://user-images.githubusercontent.com/32305619/38238087-7199e546-36ee-11e8-9e9d-5e530c76be20.png)
 
 ![detalleimpresion1](https://user-images.githubusercontent.com/32305619/38177447-435366e4-35c7-11e8-8ccf-8d17cfad24af.png)
+
+
+
 
 #### Prototipo Desktop Marvellapp.
 https://marvelapp.com/3bi6j70/screen/40521065
