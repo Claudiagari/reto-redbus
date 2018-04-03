@@ -26,11 +26,11 @@
 
 ### Estadísticas según Google Trends.
 
-![Imagenes](img/estadisticaRedBus.png) 
+![estadisticaredbus](https://user-images.githubusercontent.com/32305619/38237697-83b3b3fc-36ed-11e8-8674-70c3751b681f.png)
 
-![Imagenes](img/estadisticaRedBusvsOltursa.png) 
+![estadisticaredbusvsoltursa](https://user-images.githubusercontent.com/32305619/38237705-8912303a-36ed-11e8-9ac5-1f61561e92fe.png)
 
-![Imagenes](img/comparativasRedBusvsOltursa.jpg) 
+![comparativasredbusvsoltursa](https://user-images.githubusercontent.com/32305619/38237712-8c166cce-36ed-11e8-837d-c6c52819deca.jpg)
 
 Red Bus inicia sus ventas de pasaje Online en 2016, no tiene mucho tiempo en la red, sin embargo está ocupando los primeros lugares de búsquedas de pasajes online y tiende a seguir subiendo. Según las estadísticas de Google Trends, Red Bus en comparación con la agencia de transporte turística Oltursa(tomada al azar), en el año  2017, mostro una mayor venta de pasajes online, a diferentes provincias de Perú. La mayor afluencia de visitas online a RedBus son a lugares turísticos, como Cuzco, Ica, Arequipa, Cajamarca, Trujillo, Ancash.
 - https://elcomercio.pe/economia/negocios/startup-peruana-busportal-comprada-empresa-india-237725
