@@ -42,13 +42,13 @@ http://techcetera.co/las-grandes-empresas-apuestan-por-invertir-en-ux/
     Cuando en 2013 les llegó el momento de emprender el rediseño del sitio de compra de pasajes de avión, en lugar de hacer un rediseño superficial, decidieron relanzarlo con un nuevo objetivo de negocio: agilizar el proceso de compra de pasajes de avión a través de dispositivos móviles y transformarlo en una experiencia atractiva para los usuarios. 
    - http://www.kambrica.com/blog/empresas-con-foco-en-ux-virgin-america/
 
-![Imagenes](img/virgin1.png) 
+![Imagenes](img/virgin1.png) ![virgin1](https://user-images.githubusercontent.com/32305619/38237860-ef9ab9a8-36ed-11e8-92c9-5cd28155eab7.png)
 
 - Easy Jet`s.
     Easy Ject, otra de las grandes empresas de ventas de pasajes en avión que lograron ser exitosas despues de rediseñar el lugar de ventas de pasajes online, crear una pagina responsive. Easy Jet´s nos dice: "Nuestra asociación se basa en un enfoque implacable en los clientes, las oportunidades de tecnología y la entrega digital".
     - https://www.webcredible.com/case-studies/travel/easyjet/
 
-![Imagenes](img/easyjets.png) 
+![easyjets](https://user-images.githubusercontent.com/32305619/38237865-f2ef8bec-36ed-11e8-9b41-3bc24e9c3101.png)
 
 #### Prototipo DESKTOP.
 ![plantillatiket](https://user-images.githubusercontent.com/32305619/38174979-e7eb91a4-359a-11e8-9713-b6408a3c0de6.png)
