@@ -79,11 +79,14 @@ http://techcetera.co/las-grandes-empresas-apuestan-por-invertir-en-ux/
 
 ![detalleimpresion1](https://user-images.githubusercontent.com/32305619/38177447-435366e4-35c7-11e8-8ccf-8d17cfad24af.png)
 
-
-
-
 #### Prototipo Desktop Marvellapp.
 https://marvelapp.com/3bi6j70/screen/40521065
 
+#### Funcionalidad.
+Basandose en el estudio, se procede a realizar la parte funcional.
+Las tecnologías son React, React-Redux, CSS3, Boostratp 4, uso de dependencias ( react-slick)
 
-
+#### Integrantes.
+-Claudia Gariboto - Desarrolladora
+-Lidia Ramirez - Desarrolladora
+-Mariela Cerna - UXDesigner.
